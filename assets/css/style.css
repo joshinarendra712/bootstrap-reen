@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-family: 'PT Serif', serif;
+}
+/* header css ======================= */
+.header .navbar-nav .nav-item a{
+    font-size: 16px;
+    color: #506a85;
+    text-transform: uppercase;
+    position: relative;
+}
+.header .links a,.header .links span ,.header .icons a{
+    text-decoration: none;
+    padding: 10px;
+    color: #2f4052;
+    font-size: 15px;
+}
+.header .navbar-nav .nav-item a::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color:#283645;
+    transition: all .4s ease-in-out;
+}
+.header .navbar-nav .nav-item a:hover::after{
+    width: 100%;
+}
+
+
+
+
+.carousel-section .carousel-inner,.carousel-section .carousel-inner .carousel-item{
+    height: 100vh;
+}
+.carousel-section .carousel-inner .carousel-caption{
+    top :50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+}
+.carousel-section .carousel-indicators{
+    top: 70%;
+}
+.carousel-section .carousel-caption h5{
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.carousel-section .carousel-caption p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+}
+.carousel-section .carousel-inner .carousel-item img{
+    height: 100vh;
+    object-fit: cover;
+}
+
+
+.post{
+    padding: 120px 0;
+}
+.post .primary-heading h2{
+    text-transform: capitalize;
+    font-size: 50px;
+    color: #506a85;
+    margin-bottom: 20px;
+}
+.post .primary-heading p{
+    font-size: 20px;
+    color: #73879c;
+    margin-bottom: 20px;
+    width: 90%;
+    line-height: 1.5;
+    text-align: center;
+}
+.post .info h3{
+    text-transform: capitalize;
+    color: #506a85;
+    font-weight: bold;
+}
+.post .info p{
+    color: #73879c;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+/* ==================work section css===================== */
+.work{
+    background-color: #f1f5f7;
+}
+.work .work-heading h3{
+    color:#506a85 ;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.work .work-heading p{
+    color: #73879c;
+    font-size: 20px;
+}
+.work .img-section {
+    background-color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #506a85;
+    font-weight: bold;
+}
+.want .primary-heading h3{
+    font-size: 44px;
+    color: #506a85;
+    text-transform: capitalize;
+}
+.want .primary-heading p{
+    font-size :22px;
+    color: #73879c;
+    width: 100%;
+
+}
+
+.latest-work{
+    background-color:#2f4052;
+    padding: 120px 0;
+}
+.latest-work .main-work h4,.latest-work .main-work h3{
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+   
+}
+.latest-work .main-work h4{
+    font-size: 60px;
+    font-weight: bold;
+}
+.latest-work .main-work p{
+    color: #a3b1bf;
+    font-size: 14px;
+}
+.latest-work .main-work a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.latest-work .main-work-3 p{
+    color: #a3b1bf;
+    font-size: 14px;
+}
+.latest-work .main-work-3 li{
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.latest-work .main-work-3 li a{
+    text-decoration: none;
+    color: #fff;
+}
+.latest-work .main-work-3 li img{
+    margin-right: 10px;
+}
+.latest-work .main-work-4 h3{
+    font-size: 16px;
+}
+.latest-work .main-work-4 p{
+    color: #a3b1bf;
+    font-size: 14px;
+}
+.footer{
+    background-color: #283645;
+    color: #707e8c;
+}
+.footer ul li{
+    display: inline-block;
+    margin: 10px;
+}
+.footer ul li a{
+    color: #707e8c;
+    text-decoration: none;
+}
+
+/* responcive css =========== */
+.Responsive .heading h3{
+    font-size: 50px;
+    color: #506a85;
+
+}
+.Responsive .heading p {
+    font-size: 20px;
+    color: #73879c;
+    width: 90%;
+}
+.Responsive .links i{
+    font-size: 45px;
+    color: #00bb9b; 
+}
+.Responsive .info h3{
+text-transform: capitalize;
+color: #506a85;
+font-weight: bold;
+
+}
+.Responsive .info p{
+    color: #73879c;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
